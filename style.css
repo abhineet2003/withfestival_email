@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #000000;
+  font-size: 62.5%;
+  font-family: poppins;
+  width: 56rem;
+  margin: 0 auto;
+  color: white;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 56rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+main {
+  padding: 0 3rem 3rem 3rem;
+}
+.mfc {
+  margin-right: 20px;
+}
+.maintext p {
+  margin-top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.midmain {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.withani {
+  width: 18rem;
+}
+.withdate {
+  width: 30rem;
+}
+.dateven {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dateven a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+.artists {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+.artists P {
+  text-align: center;
+  font-size: 4rem;
+}
+.artists img {
+  width: 50rem;
+}
+.lasttxt p {
+  margin-top: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.lasttxt img {
+  width: 8rem;
+}
